@@ -1,0 +1,23 @@
+@import "compass/css3";
+
+body{
+  background-color: aliceblue;
+}
+
+.bg {
+    background-image: url('one.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -8px;
+    margin-top: -8px;
+
+    display: block;
+    width: 110vw;
+    height: 110vh;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space:nowrap;
+}
